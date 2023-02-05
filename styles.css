@@ -1,0 +1,51 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+ }
+ 
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  padding: 0;
+
+  
+
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2)
+  ),  url('./main-bckg.jpeg') no-repeat center center fixed ;
+ 
+  background-size: cover;
+  background-position-y: -350px;
+  background-position-x: center; 
+
+ 
+;
+}
+
+/* 
+.smooth-trans {
+    animation:  ease-in-out 3s;
+    animation-fill-mode: forwards;
+}
+
+.smooth-trans:hover {
+    animation: ease-in-out 3s;
+    animation-fill-mode: forwards;
+} */
+.nav-link, .nav-brand {
+    color: white !important;
+}
+
+
+.bg-img-1{
+
+}
+
+.bg-img-1 {
+
+}
+
