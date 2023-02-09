@@ -1,0 +1,46 @@
+html {
+    background-color: black !important;
+ }
+ 
+body {
+
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2)
+  ),  url('./main-bckg.jpeg') no-repeat center center fixed ;
+ 
+  background-size: cover !important;
+  background-position-y: -350px !important;
+  background-position-x: center !important; 
+
+}
+
+
+ul.horizontal-style li {
+    display: inline-block !important;
+    padding: 25px;
+   
+  }
+ul.horizontal-style li h1 a:hover {
+      color: #BB0000 !important; 
+      text-decoration-line: underline;
+      text-underline-position: auto;
+      box-shadow: inset;
+    
+  }
+
+.nav-link, .nav-brand {
+    color: white !important;
+}
+
+
+.bg-img-1{
+
+}
+
+.bg-img-1 {
+
+}
+
+
+  

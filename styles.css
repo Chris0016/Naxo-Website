@@ -3,6 +3,7 @@ html {
     height: 100%;
     width: 100%;
     padding: 0;
+    
  }
  
 body {
@@ -11,19 +12,6 @@ body {
   width: 100%;
   padding: 0;
 
-  
-
-  background: linear-gradient(
-    rgba(0, 0, 0, 0.2), 
-    rgba(0, 0, 0, 0.2)
-  ),  url('./main-bckg.jpeg') no-repeat center center fixed ;
- 
-  background-size: cover;
-  background-position-y: -350px;
-  background-position-x: center; 
-
- 
-;
 }
 
 /* 
@@ -36,16 +24,11 @@ body {
     animation: ease-in-out 3s;
     animation-fill-mode: forwards;
 } */
-.nav-link, .nav-brand {
-    color: white !important;
+
+.container .row:first-child {
+    margin-top: 70px;
 }
 
-
-.bg-img-1{
-
+.container .gallery-row {
+    margin-top: 50px !important;
 }
-
-.bg-img-1 {
-
-}
-
